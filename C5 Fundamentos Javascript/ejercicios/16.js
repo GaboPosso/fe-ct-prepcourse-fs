@@ -5,7 +5,8 @@ function esImpar(num) {
   // Por ejemplo: 
   // 15 ---> true
   // 14 ---> false
-  // Tu código:
+  // Tu código: 
+  return num % 2!== 0;  
 }
 
 module.exports = esImpar;
