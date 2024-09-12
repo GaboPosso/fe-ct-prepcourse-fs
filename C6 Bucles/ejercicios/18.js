@@ -7,7 +7,7 @@ function productoEntreNúmeros(a, b) {
   for (let i = Math.min(a, b); i <= Math.max(a, b); i++) {
     resultado *= i;
   }
-  return resultado;
+  return resultado === -0 ? 0 : resultado;
 }
 
 module.exports = productoEntreNúmeros;
