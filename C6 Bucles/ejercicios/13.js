@@ -9,7 +9,7 @@ function esEntero(num) {
   return Number.isInteger(num);
 }
 
-console.log(esEntero(0.8));
-console.log(esEntero(1));
+// console.log(esEntero(0.8));
+// console.log(esEntero(1));
 
 module.exports = esEntero;

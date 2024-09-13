@@ -13,4 +13,5 @@ function conection(status) {
 
 module.exports = conection;
 
-console.log(conection(1))
+
+
